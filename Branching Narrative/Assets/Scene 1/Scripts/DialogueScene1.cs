@@ -61,14 +61,14 @@ public class DialogueScene1 : MonoBehaviour
             ArtChar1.SetActive(true);
             dialogue.SetActive(true);
             Char1name.text = "YOU";
-            Char1speech.text = "sigh*, I know everyone says this is supposed to be exciting but am I the only one that can't help but feel a little nervous?";
+            Char1speech.text = "*YAWN*, Today's the big day, the day I have to choose. ";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 3)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "Everythign is working for me";
+            Char1speech.text = "Will I become a dark witch, or a light witch... I'm still so conflicted, I almost don't want to decide yet, but I must.";
             Char2name.text = "";
             Char2speech.text = "";
             //gameHandler.AddPlayerStat(1);
@@ -76,36 +76,36 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 4)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "I am a witch with booty.";
+            Char1speech.text = "If only there was a way to choose both? But I don't think the high witch would like that.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 5)
         {
             Char1name.text = "You";
-            Char1speech.text = "Archimedes, what do you think of this booty?";
+            Char1speech.text = "Joan, what do you think I should choose?";
             Char2name.text = "";
-            Char2speech.text = "?";
+            Char2speech.text = "";
             //gameHandler.AddPlayerStat(1);
         }
         else if (primeInt == 6)
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "ARCHIMEDES";
-            Char2speech.text = "Mew";
+            Char2name.text = "JOAN";
+            Char2speech.text = "((Well, I'd say the whole system is flawed, Making powerful witches have to cut their abilities in half. But if you want to remain in the coven your going to have to make a choice.))";
         }
         else if (primeInt == 7)
         {
             Char1name.text = "YOu";
-            Char1speech.text = "Yeah, well what do you know?";
+            Char1speech.text = "You Might have a point there.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 8)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "OK, Archie. What should I do with my eyes?.";
+            Char1speech.text = "Now now now, what to wear....";
             Char2name.text = "";
             Char2speech.text = "";
             // Turn off "Next" button, turn on "Choice" buttons
@@ -119,13 +119,13 @@ public class DialogueScene1 : MonoBehaviour
         {
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "ARCHIMEDES";
-            Char2speech.text = "Meeow (big B, you wish you could take off)!";
+            Char2name.text = "Joan";
+            Char2speech.text = "((Looking Mighty handsome today, lets hope the high witch doesn't catch feelings))";
         }
         else if (primeInt == 101)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "Y'know, this is why I don't do anything around you! Meanie.";
+            Char1speech.text = "Shut up you little flirt, your gonna make me blush.";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -136,7 +136,7 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 200)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "Cut it out if you don't want to see the bottom of my pointy heel!";
+            Char1speech.text = "Well we should start thinking about leaving...";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -144,7 +144,7 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 201)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "Oh, spit...!";
+            Char1speech.text = "OHMIGODDESS, We're gonna be late to the ceremony!";
             Char2name.text = "";
             Char2speech.text = "";
         }
@@ -152,7 +152,7 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 202)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "I'M GONNA BE LATE FOR SKOOL!";
+            Char1speech.text = "We gotta start going Joan.";
             Char2name.text = "";
             Char2speech.text = "";
             nextButton.SetActive(false);
@@ -165,7 +165,7 @@ public class DialogueScene1 : MonoBehaviour
     public void Choice1aFunct()
     {
         Char1name.text = "YOU";
-        Char1speech.text = "With these winged eyes I could fly to school!";
+        Char1speech.text = "Yeah this feels right!";
         Char2name.text = "";
         Char2speech.text = "";
         primeInt = 99;
@@ -178,14 +178,15 @@ public class DialogueScene1 : MonoBehaviour
     {
         Char1name.text = "";
         Char1speech.text = "";
-        Char2name.text = "ARCHIMEDES";
-        Char2speech.text = "Meow (Are you sure you want to leave the house looking like that?)";
+        Char2name.text = "Joan";
+        Char2speech.text = "((It's like your casting a love enchant on me with thoose legs! The high witch should be intimated by your efervessence.))";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         nextButton.SetActive(true);
         allowSpace = true;
     }
+	
 
     public void SceneChange2a()
     {
