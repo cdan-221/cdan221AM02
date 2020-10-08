@@ -190,7 +190,7 @@ public class DialogueScene1 : MonoBehaviour
 
     public void SceneChange2a()
     {
-        SceneManager.LoadScene("Scene2a");
+        SceneManager.LoadScene("Scene2");
     }
     public void SceneChange2b()
     {
