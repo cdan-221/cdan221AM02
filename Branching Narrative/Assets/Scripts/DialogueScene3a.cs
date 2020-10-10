@@ -216,7 +216,107 @@ public class DialogueScene3a : MonoBehaviour
             Choice1b.SetActive(true); // function Choice1bFunct()
         }
         // ENCOUNTER AFTER CHOICE #1
-        else if (primeInt == 17)
+        else if (primeInt == 100)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "Okay, so how do I-";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+		else if (primeInt == 101)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "Just focus your mind on the tea and things that you love, like butterflies, gummy bears, animals sneezing…";
+        }
+		else if (primeInt == 102)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "*You focus your mind, and the tea starts glowing, the color shifts from looking like your typical black tea to having pink undertones and… is that glitter??*";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+		else if (primeInt == 103)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "Ta~da?";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+		else if (primeInt == 104)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "You did it, you did it! OH I’m so happy!";
+        }
+		else if (primeInt == 105)
+        {
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "See you helped me and learned about love spells, where did you say you were going again?";
+        }
+		else if (primeInt == 106)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "I didn’t but I actually have to go to the school to decide if I’m going to become a light witch or a dark witch…";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+		else if (primeInt == 107)
+        {
+			ArtChar1.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "Joan";
+            Char2speech.text = "Yes, and we’re running late, so less talky talky more walky walky.";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+		else if (primeInt == 108)
+        {
+			ArtChar1.SetActive(false);
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "Well I won’t keep you any longer, But just know if you want to keep doing love spells, you might wanna stick to the path of light.";
+        }
+		else if (primeInt == 109)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "Okay, Bye now!";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+		else if (primeInt == 111)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
@@ -230,17 +330,123 @@ public class DialogueScene3a : MonoBehaviour
             NextScene1Button.SetActive(true);
 			NextScene2Button.SetActive(true);
         }
-	}
 
+	//Encounter after choice 2
+	else if (primeInt == 200)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "I’ve never done this type of magic before and I just met you, I really need to get going…";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 201)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "UGH, But I need this tea enchanted, just try real quick and I’ll let you go…";
+        }
+	else if (primeInt == 202)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "I'll try...";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 203)
+        {
+            Char1name.text = "";
+            Char1speech.text = "*you focus really hard on the tea, you notice something start to happen. The tea started bubbling like it was being boiled, and it’s color shifted from black tea, to something resembling more black oil*";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 204)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "Oh.. So that’s how you feel about me…";
+        }
+	else if (primeInt == 205)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "huh???";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 206)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "YOU FILLED MY LOVE TEA WITH HATE!";
+        }
+	else if (primeInt == 207)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "Sorry I-";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 208)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "GET OUT!!";
+        }
+	else if (primeInt == 209)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "That didn’t go so well… now which way…";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+			nextButton.SetActive(false);
+            allowSpace = false;
+            NextScene1Button.SetActive(true);
+			NextScene2Button.SetActive(true);
+        }
+	
+	}
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
-        Char1name.text = "YOU";
-        Char1speech.text = "Yeah this feels right!";
+		ArtChar2.SetActive(true);
+        Char1name.text = "";
+        Char1speech.text = "";
         Char2name.text = "";
         Char2speech.text = "";
-		Char3name.text = "";
-        Char3speech.text = "";
+		Char3name.text = "Minori";
+        Char3speech.text = "You Will! Oh, I'm so happy!!!";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -251,10 +457,10 @@ public class DialogueScene3a : MonoBehaviour
     {
         Char1name.text = "";
         Char1speech.text = "";
-        Char2name.text = "Joan";
-        Char2speech.text = "((It's like your casting a love enchant on me with thoose legs! The high witch should be intimated by your efervessence.))";
-		Char3name.text = "";
-        Char3speech.text = "";
+        Char2name.text = "";
+        Char2speech.text = "";
+		Char3name.text = "Minori";
+        Char3speech.text = "What do you mean you CAN’T?! Can’t or Won’t??";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
