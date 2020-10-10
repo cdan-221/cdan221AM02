@@ -14,16 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: f031acb94c7d0ab4f99ae5cc404746a7
-  - enabled: 1
-    path: Assets/Scenes/Scene3a.unity
-    guid: 1b84868cc4aa426469f6583e5c32e67a
-  - enabled: 1
-    path: Assets/Scenes/Scene3b.unity
-    guid: ecd5cb6996f87ec41a6ae1155bcf497d
-  - enabled: 1
-    path: Assets/Scenes/SceneGrey.unity
-    guid: 0242b2722b9bdb84f85d02c7b953a7b3
-  - enabled: 1
-    path: Assets/Scenes/DEATH.unity
-    guid: a9495c33cec2a8d49922143617e61f18
   m_configObjects: {}
