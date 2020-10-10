@@ -230,6 +230,7 @@ public class DialogueScene3a : MonoBehaviour
             NextScene1Button.SetActive(true);
 			NextScene2Button.SetActive(true);
         }
+	}
 
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
@@ -238,6 +239,8 @@ public class DialogueScene3a : MonoBehaviour
         Char1speech.text = "Yeah this feels right!";
         Char2name.text = "";
         Char2speech.text = "";
+		Char3name.text = "";
+        Char3speech.text = "";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -250,6 +253,8 @@ public class DialogueScene3a : MonoBehaviour
         Char1speech.text = "";
         Char2name.text = "Joan";
         Char2speech.text = "((It's like your casting a love enchant on me with thoose legs! The high witch should be intimated by your efervessence.))";
+		Char3name.text = "";
+        Char3speech.text = "";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
