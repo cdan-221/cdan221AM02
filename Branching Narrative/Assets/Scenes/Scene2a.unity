@@ -190,7 +190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Don't tell me what to do!
+  m_Text: Take a shortcut
 --- !u!222 &36915507
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1123,7 +1123,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OH NO I HAVE TO HURRY!
+  m_Text: Walk straight ahead
 --- !u!222 &1032443344
 CanvasRenderer:
   m_ObjectHideFlags: 0
