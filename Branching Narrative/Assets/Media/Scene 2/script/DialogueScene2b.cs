@@ -136,7 +136,7 @@ public class DialogueScene2b : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Greg";
-            Char2speech.text = "If you follow the Dark mages path you can do all sorts of “Fun”. Well I must go now. Follow the path on the right if you're interested in being a one of the cool guys. Take care of Smooth Criminal over there will ya.";
+            Char2speech.text = "If you follow the Dark mages path you can do all sorts of “Fun”. Well I must go now. Follow the path on the right if you're interested in being one of the cool guys. Take care of Smooth Criminal over there will ya.";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -192,10 +192,10 @@ public class DialogueScene2b : MonoBehaviour
 
     public void SceneChange2a()
     {
-        SceneManager.LoadScene("Scene2a");
+        SceneManager.LoadScene("Scene3a");
     }
     public void SceneChange2b()
     {
-        SceneManager.LoadScene("Scene2b");
+        SceneManager.LoadScene("Scene3b");
     }
 }
