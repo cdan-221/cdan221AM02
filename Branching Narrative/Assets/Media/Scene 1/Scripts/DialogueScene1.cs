@@ -131,6 +131,7 @@ public class DialogueScene1 : MonoBehaviour
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
+            NextScene2Button.SetActive(true);
         }
 
         else if (primeInt == 200)
@@ -158,6 +159,7 @@ public class DialogueScene1 : MonoBehaviour
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
+       	    NextScene2Button.SetActive(true);
         }
     }
 
@@ -190,7 +192,7 @@ public class DialogueScene1 : MonoBehaviour
 
     public void SceneChange2a()
     {
-        SceneManager.LoadScene("Scene2");
+        SceneManager.LoadScene("Scene2a");
     }
     public void SceneChange2b()
     {
