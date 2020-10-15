@@ -471,19 +471,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   primeInt: 1
-  Char1name: {fileID: 0}
-  Char1speech: {fileID: 0}
-  Char2name: {fileID: 0}
-  Char2speech: {fileID: 0}
-  Char3name: {fileID: 0}
-  Char3speech: {fileID: 0}
+  Char1name: {fileID: 1508082077}
+  Char1speech: {fileID: 17675623}
+  Char2name: {fileID: 1896523825}
+  Char2speech: {fileID: 822345441}
+  Char3name: {fileID: 853575267}
+  Char3speech: {fileID: 547112753}
   dialogue: {fileID: 0}
-  ArtChar1: {fileID: 0}
-  ArtChar2: {fileID: 0}
-  ArtBG1: {fileID: 0}
-  Choice1a: {fileID: 0}
-  Choice1b: {fileID: 0}
-  NextScene1Button: {fileID: 0}
+  ArtChar1: {fileID: 342119300}
+  ArtChar2: {fileID: 52314932}
+  ArtBG1: {fileID: 942923310}
+  Choice1a: {fileID: 1713760583}
+  Choice1b: {fileID: 2004614565}
+  NextScene1Button: {fileID: 421613231}
   NextScene2Button: {fileID: 0}
   nextButton: {fileID: 0}
 --- !u!1 &342119300
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 324502794}
         m_MethodName: SceneChange6
         m_Mode: 1
         m_Arguments:
@@ -1454,7 +1454,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 324502794}
         m_MethodName: talking
         m_Mode: 1
         m_Arguments:
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 324502794}
         m_MethodName: Choice1aFunct
         m_Mode: 1
         m_Arguments:
@@ -2109,7 +2109,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 324502794}
         m_MethodName: Choice1bFunct
         m_Mode: 1
         m_Arguments:
