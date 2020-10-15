@@ -3,27 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DialogueGameHandler : MonoBehaviour{
+public class DialogueGameHandler : MonoBehaviour
+{
 
-	public static int playerStat;
+    public static int playerStat;
+    [SerializeField] PlayerData data;
+    void Update()
+    {
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+    }
 
-	void Update(){
-		if (Input.GetKey("escape")){
-			Application.Quit();
-		}
-	}
+    public void AddPlayerStat()
+    {
+        playerStat += 1;
+        Debug.Log("Current Player Stat = " + playerStat);
+    }
 
-	public void AddPlayerStat(){
-		playerStat += 1;
-		Debug.Log("Current Player Stat = " + playerStat);
-	}
+    public void RestartGame()
+    {
+        data.ClearChoices();
+        SceneManager.LoadScene("Scene1");
 
-	public void RestartGame(){
-		SceneManager.LoadScene("Scene1");
-	}
+    }
 
-	public void QuitGame(){
-		Application.Quit();
-	}
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 
 }

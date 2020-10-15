@@ -7,6 +7,7 @@ using UnityEngine.Audio;
 
 public class DialogueScene6 : MonoBehaviour
 {
+    [SerializeField] PlayerData playerdata;
     public int primeInt = 1; // This integer drives game progress!
     public Text Char1name;
     public Text Char1speech;
@@ -189,7 +190,7 @@ public class DialogueScene6 : MonoBehaviour
             allowSpace = false;
             Choice1a.SetActive(true); // function Choice1aFunct()
             Choice1b.SetActive(true); // function Choice1bFunct()
-			Choice1c.SetActive(true); // function Choice1cFunct()
+			Choice1c.SetActive(playerdata.GetTotalPlayerChoices() == 0); // function Choice1cFunct()
         }
         // ENCOUNTER AFTER CHOICE 1 LIGHT
         else if (primeInt == 100)
@@ -283,22 +284,17 @@ public class DialogueScene6 : MonoBehaviour
         allowSpace = true;
     }
 	
-
-    public void SceneChangeLightWin()
+    public void LightSceneChange()
     {
-        SceneManager.LoadScene("Scene7LightWin");
+        if(playerdata.GetTotalPlayerChoices()==2)
+            SceneManager.LoadScene("Scene7LightWin");
+        else SceneManager.LoadScene("Scene7LightDeath");
     }
-    public void SceneChangeLightDeath()
+    public void DarkSceneChange()
     {
-        SceneManager.LoadScene("Scene7LightDeath");
-    }
-	public void SceneChangeDarkWin()
-    {
-        SceneManager.LoadScene("Scene7DarkWin");
-    }
-    public void SceneChangeDarkDeath()
-    {
-        SceneManager.LoadScene("Scene7DarkDeath");
+        if (playerdata.GetTotalPlayerChoices() == -2)
+            SceneManager.LoadScene("Scene7DarkWin");
+        else SceneManager.LoadScene("Scene7DarkDeath");
     }
 	public void SceneChangeGreyWin()
     {

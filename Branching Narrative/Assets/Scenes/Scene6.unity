@@ -678,6 +678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e62c9e6b150d141a2272e42f2be797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerdata: {fileID: 11400000, guid: eb7a1b652db212441a8225f8e079bc20, type: 2}
   primeInt: 1
   Char1name: {fileID: 1508082077}
   Char1speech: {fileID: 17675623}
@@ -928,7 +929,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 324502794}
-        m_MethodName: SceneChangeLightWin
+        m_MethodName: LightSceneChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1058,7 +1059,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 324502794}
-        m_MethodName: SceneChangeDarkWin
+        m_MethodName: DarkSceneChange
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
