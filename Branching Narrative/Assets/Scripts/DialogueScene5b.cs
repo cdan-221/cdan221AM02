@@ -346,6 +346,10 @@ public class DialogueScene5b : MonoBehaviour
             Char2speech.text = "";
             Char3name.text = "";
             Char3speech.text = "";
+            nextButton.SetActive(false);
+            allowSpace = false;
+            NextScene1Button.SetActive(true);
+            NextScene2Button.SetActive(true);
         }
 
 	//Encounter after choice 2
