@@ -477,7 +477,7 @@ MonoBehaviour:
   Char2speech: {fileID: 822345441}
   Char3name: {fileID: 853575267}
   Char3speech: {fileID: 547112753}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 1307681654}
   ArtChar1: {fileID: 342119300}
   ArtChar2: {fileID: 52314932}
   ArtBG1: {fileID: 942923310}
@@ -485,7 +485,7 @@ MonoBehaviour:
   Choice1b: {fileID: 2004614565}
   NextScene1Button: {fileID: 421613231}
   NextScene2Button: {fileID: 0}
-  nextButton: {fileID: 0}
+  nextButton: {fileID: 1405629944}
 --- !u!1 &342119300
 GameObject:
   m_ObjectHideFlags: 0
