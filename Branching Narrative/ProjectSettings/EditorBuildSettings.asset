@@ -4,5 +4,53 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3518a73a8ba0a4f43b762d2605fc54be
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 9c6bc3fba5ade4b4bbe6c680eaf7b815
+  - enabled: 1
+    path: Assets/Scenes/Scene2a.unity
+    guid: f031acb94c7d0ab4f99ae5cc404746a7
+  - enabled: 1
+    path: Assets/Scenes/Scene2b.unity
+    guid: 5ea560b702a85974395442a66272e920
+  - enabled: 1
+    path: Assets/Scenes/Scene3a.unity
+    guid: 1b84868cc4aa426469f6583e5c32e67a
+  - enabled: 1
+    path: Assets/Scenes/Scene3b.unity
+    guid: ecd5cb6996f87ec41a6ae1155bcf497d
+  - enabled: 1
+    path: Assets/Scenes/Scene4 a.unity
+    guid: 4487a65094c556a42a0a879e8705a3b1
+  - enabled: 1
+    path: Assets/Scenes/Scene4b.unity
+    guid: 467940eaa9181914884d8e0f3be68c87
+  - enabled: 1
+    path: Assets/Scenes/Scene5a.unity
+    guid: 2f53f88477bea6449a640def81e3a5c3
+  - enabled: 1
+    path: Assets/Scenes/Scene5b.unity
+    guid: b31e8729a2f555740b7ccd2dffc0a276
+  - enabled: 1
+    path: Assets/Scenes/Scene6.unity
+    guid: 73d7463c7c17629408eb74d648e6d4ea
+  - enabled: 1
+    path: Assets/Scenes/Scene7DarkDeath.unity
+    guid: 0829981339209ae49a3e0499d0fc28bd
+  - enabled: 1
+    path: Assets/Scenes/Scene7DarkWin.unity
+    guid: 1f8954bbb6755c348bd8b76399bf01d7
+  - enabled: 1
+    path: Assets/Scenes/Scene7GreyWin.unity
+    guid: aceac336f4dfaee488877de40c4d2dfa
+  - enabled: 1
+    path: Assets/Scenes/Scene7LightDeath.unity
+    guid: 2abc84a4f8a82a343938dbf3fae76399
+  - enabled: 1
+    path: Assets/Scenes/Scene7LightWin.unity
+    guid: 2b399fca6431cad4292c6a2c969efde2
   m_configObjects: {}
