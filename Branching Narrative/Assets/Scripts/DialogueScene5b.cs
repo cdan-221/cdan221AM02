@@ -64,7 +64,7 @@ public class DialogueScene5b : MonoBehaviour
         {
             dialogue.SetActive(true);
             Char1name.text = "YOU";
-            Char1speech.text = "Wow! It got really misty all of a sudden. Can you see anything Joan?";
+            Char1speech.text = "Oh wow Joan, look at the beautiful flowers!";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -76,7 +76,7 @@ public class DialogueScene5b : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Joan";
-            Char2speech.text = "((Why would you think I could see anything, idiot! ))";
+            Char2speech.text = "((I see lilies, are you trying to kill me? ))";
 			Char3name.text = "";
 			Char3speech.text = "";
             //gameHandler.AddPlayerStat(1);
@@ -89,12 +89,12 @@ public class DialogueScene5b : MonoBehaviour
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "???";
-            Char3speech.text = "*Yawn*";
+            Char3speech.text = "Oh hello there!";
         }
 		else if (primeInt == 5)
         {
             Char1name.text = "YOU";
-            Char1speech.text = "What was that!?";
+            Char1speech.text = "Who's there?";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -107,14 +107,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "???";
-            Char3speech.text = "Jeez. I thought this would be a good place to nap before the ceremony... ";
+			Char3name.text = "Minori";
+            Char3speech.text = "Sorry! My Name’s Minori, this is my love cafe! We’re having a wedding right now, but…. Hmmmm…..";
         }
 		else if (primeInt == 7)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Who are you?";
+            Char1speech.text = "Is something wrong??";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -127,28 +127,28 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "The names Amethyst.";
+			Char3name.text = "Minori";
+            Char3speech.text = "it’s nothing…";
         }
 		else if (primeInt == 9)
         {
-            ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-            Char3name.text = "Amethyst";
-            Char3speech.text = "Who are you supposed to be?";
-        }
-		else if (primeInt == 10)
-        {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Well, I'm an up and coming wtich who needs to get to the ceremony.";
+            Char1speech.text = "Well then we should really be-";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
             Char3speech.text = "";
+        }
+		else if (primeInt == 10)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "FINE! I’ll tell you… I’m supposed to have a batch of my famous love tea but the love spell I cast on it last night isn’t taking... ";
         }
 		else if (primeInt == 11)
         {
@@ -157,7 +157,7 @@ public class DialogueScene5b : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Joan";
-            Char2speech.text = "((A ceremony we should be at now!!))";
+            Char2speech.text = "((Need I remind you we’re running late??))";
 			Char3name.text = "";
             Char3speech.text = "";
         }
@@ -169,14 +169,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "The cat's right. The ceremony is starting soon. Although....";
+			Char3name.text = "Minori";
+            Char3speech.text = "Wait a second… a talking cat.. A FAMILIAR! You're a witch right?!";
         }
 		else if (primeInt == 13)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Although what?";
+            Char1speech.text = "Yeah, but I-";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -189,14 +189,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Since you were so nice in interupting my nap. You get to help me with something.";
+			Char3name.text = "Minori";
+            Char3speech.text = "Perfect! Maybe you can help with the love spell! It’s really simple and the guests my cafe is currently hosting are expecting it!";
         }
 		else if (primeInt == 15)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "What?! But I didn't even know you were here!!";
+            Char1speech.text = "I don’t know.. I’ve never really used this type of magic before.";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -209,8 +209,8 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Oh come on! It's simple enough that a fledgeling could do it.";
+			Char3name.text = "Minori";
+            Char3speech.text = "Please please pretty please!! It’s not that hard I’ll walk you through it just say you’ll do it!";
             // Turn off "Next" button, turn on "Choice" buttons
             nextButton.SetActive(false);
             allowSpace = false;
@@ -222,7 +222,7 @@ public class DialogueScene5b : MonoBehaviour
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Fine...";
+            Char1speech.text = "Okay, so how do I-";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -235,14 +235,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Take this stone and focus some magic into it. I need an extra power stone for a spell later.";
+			Char3name.text = "Minori";
+            Char3speech.text = "Just focus your mind on the tea and things that you love, like butterflies, gummy bears, animals sneezing…";
         }
 		else if (primeInt == 102)
         {
 			ArtChar2.SetActive(true);
             Char1name.text = "";
-            Char1speech.text = "*You focus your magic into the Amethyst colored stone and it starts to glow brightly*";
+            Char1speech.text = "*You focus your mind, and the tea starts glowing, the color shifts from looking like your typical black tea to having pink undertones and… is that glitter??*";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -252,7 +252,7 @@ public class DialogueScene5b : MonoBehaviour
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "There! Now I really need to go!!";
+            Char1speech.text = "Ta~da?";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -265,8 +265,8 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Huh! Not bad kid!";
+			Char3name.text = "Minori";
+            Char3speech.text = "You did it, you did it! OH I’m so happy!";
         }
 		else if (primeInt == 105)
         {
@@ -274,14 +274,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "You've got some powerful magic there! I'm sure which ever path you decide, You'll excel in.";
+			Char3name.text = "Minori";
+            Char3speech.text = "See you helped me and learned about love spells, where did you say you were going again?";
         }
 		else if (primeInt == 106)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Really? Thanks!!";
+            Char1speech.text = "I didn’t but I actually have to go to the school to decide if I’m going to become a light witch or a dark witch…";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -293,7 +293,7 @@ public class DialogueScene5b : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Joan";
-            Char2speech.text = "Ya. If you actually get there...";
+            Char2speech.text = "Yes, and we’re running late, so less talky talky more walky walky.";
 			Char3name.text = "";
             Char3speech.text = "";
         }
@@ -305,14 +305,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Cat's right! Btter get going!";
+			Char3name.text = "Minori";
+            Char3speech.text = "Well I won’t keep you any longer, But just know if you want to keep doing love spells, you might wanna stick to the path of light.";
         }
 		else if (primeInt == 109)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Alright! See you around!";
+            Char1speech.text = "Okay, Bye now!";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -322,7 +322,7 @@ public class DialogueScene5b : MonoBehaviour
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Ok! Almost at the school.";
+            Char1speech.text = "I guess we should get going then huh, which way?";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -338,7 +338,7 @@ public class DialogueScene5b : MonoBehaviour
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Sorry! I'm already late and I need to leave!";
+            Char1speech.text = "I’ve never done this type of magic before and I just met you, I really need to get going…";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -351,14 +351,14 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Really? Come on.";
+			Char3name.text = "Minori";
+            Char3speech.text = "UGH, But I need this tea enchanted, just try real quick and I’ll let you go…";
         }
 	else if (primeInt == 202)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "I'm sorry but I really have to go! I'm super late!";
+            Char1speech.text = "I'll try...";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -366,13 +366,12 @@ public class DialogueScene5b : MonoBehaviour
         }
 	else if (primeInt == 203)
         {
-            ArtChar2.SetActive(true);
             Char1name.text = "";
-            Char1speech.text = "";
+            Char1speech.text = "*you focus really hard on the tea, you notice something start to happen. The tea started bubbling like it was being boiled, and it’s color shifted from black tea, to something resembling more black oil*";
             Char2name.text = "";
             Char2speech.text = "";
-            Char3name.text = "Amethyst";
-            Char3speech.text = "Ugh! Fine.";
+			Char3name.text = "";
+            Char3speech.text = "";
         }
 	else if (primeInt == 204)
         {
@@ -381,15 +380,54 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Amethyst";
-            Char3speech.text = "Damn. I really need an extra power source for this spell...";
+			Char3name.text = "Minori";
+            Char3speech.text = "Oh.. So that’s how you feel about me…";
         }
-	
 	else if (primeInt == 205)
         {
 			ArtChar2.SetActive(false);
             Char1name.text = "YOU";
-            Char1speech.text = "Alright. Time to get to the ceremony!";
+            Char1speech.text = "huh???";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 206)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "YOU FILLED MY LOVE TEA WITH HATE!";
+        }
+	else if (primeInt == 207)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "Sorry I-";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "";
+            Char3speech.text = "";
+        }
+	else if (primeInt == 208)
+        {
+			ArtChar2.SetActive(true);
+            Char1name.text = "";
+            Char1speech.text = "";
+            Char2name.text = "";
+            Char2speech.text = "";
+			Char3name.text = "Minori";
+            Char3speech.text = "GET OUT!!";
+        }
+	else if (primeInt == 209)
+        {
+			ArtChar2.SetActive(false);
+            Char1name.text = "YOU";
+            Char1speech.text = "That didn’t go so well… now which way…";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -404,13 +442,13 @@ public class DialogueScene5b : MonoBehaviour
     // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
     public void Choice1aFunct()
     {
-		ArtChar2.SetActive(false);
-        Char1name.text = "YOU";
-        Char1speech.text = "Alright";
+		ArtChar2.SetActive(true);
+        Char1name.text = "";
+        Char1speech.text = "";
         Char2name.text = "";
         Char2speech.text = "";
-		Char3name.text = "";
-        Char3speech.text = "";
+		Char3name.text = "Minori";
+        Char3speech.text = "You Will! Oh, I'm so happy!!!";
         primeInt = 99;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -419,13 +457,12 @@ public class DialogueScene5b : MonoBehaviour
     }
     public void Choice1bFunct()
     {
-        ArtChar2.SetActive(true);
         Char1name.text = "";
         Char1speech.text = "";
         Char2name.text = "";
         Char2speech.text = "";
-		Char3name.text = "Amethyst";
-        Char3speech.text = "What?!";
+		Char3name.text = "Minori";
+        Char3speech.text = "What do you mean you CAN’T?! Can’t or Won’t??";
         primeInt = 199;
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
@@ -434,7 +471,12 @@ public class DialogueScene5b : MonoBehaviour
     }
 	
 
-    public void SceneChange6()
+    public void SceneChange4a()
     {
-        SceneManager.LoadScene("Scene6");
+        SceneManager.LoadScene("Scene4a");
     }
+    public void SceneChange4b()
+    {
+        SceneManager.LoadScene("Scene4b");
+    }
+}
