@@ -5,13 +5,13 @@ using UnityEngine;
 /// </summary>
 public class PlayerData : ScriptableObject
 {
+    [SerializeField] public string m_username;
     [SerializeField, Tooltip("limits the size of player choices in editor"), Range(1f, 5f)] int MaxChoices = 5;
     [SerializeField] List<PlayerPath> m_PlayerChoices = new List<PlayerPath>(5);
     /// <summary>
     /// The name entered by the user
     /// </summary>
-    public static string UserName { get; private set; }
-    [SerializeField] public string m_username;
+    public static string UserName { get; private set; } = string.Empty;
     public void AddChoice(PlayerPath choice) => m_PlayerChoices.Add(choice);
     public void ClearChoices() => m_PlayerChoices.Clear();
 
@@ -26,6 +26,7 @@ public class PlayerData : ScriptableObject
     { 
         if (m_PlayerChoices.Count > MaxChoices) // ensure that playerchoices never exceeds maxcount in editor
             m_PlayerChoices.RemoveRange(MaxChoices, m_PlayerChoices.Count - MaxChoices);
+        m_username = UserName;
     }
     public int GetTotalPlayerChoices()
     {
