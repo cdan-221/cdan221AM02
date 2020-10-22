@@ -17,9 +17,14 @@ public class PlayerData : ScriptableObject
 
     public void SetPlayerName(string newName)
     {
-        UserName = UserName == string.Empty ? newName : throw new UnityException("cannot set name again!");
-        if (Application.isEditor)
-            m_username = UserName;
+        if (string.IsNullOrEmpty(newName))
+            throw new UnityException("name cannot be null");
+        else
+        {
+            UserName = UserName == string.Empty ? newName : throw new UnityException("cannot set name again!");
+            if (Application.isEditor)
+                m_username = UserName;
+        }
     }
     private void OnEnable() => m_PlayerChoices.Clear();
     private void OnValidate()
