@@ -158,19 +158,19 @@ public class DialogueScene4a : MonoBehaviour
         // ENCOUNTER AFTER CHOICE #1
         else if (primeInt == 100)
         {
-            speak(2, false, Astra, "*sigh* I guess they're still teaching everyone the same");
+            speak(2, false, "???", "*sigh* I guess they're still teaching everyone the same");
         }
         else if (primeInt == 101)
         {
-            speak(1, false, You, "*laughs* The same? I guess, but you dont know who youre talking too im eliet. ");
+            speak(1, false, You, "*laughs* The same? what are you talking about? ");
         }
         else if (primeInt == 102)
         {
-            speak(2, false, Astra, "So eliete that youre not even strong enough to find youre way to school....Yes I know about you");
+            speak(2, false, "???", "There is a reason you cant find your way home");
         }
         else if (primeInt == 103)
         {
-            speak(1, false, You, "I never said I didnt have more to learn. What do you know anyway, you dont look a grand witch");
+            speak(1, false, You, "Who even are you??");
         }
         else if (primeInt == 104)
         {
@@ -178,7 +178,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 105)
         {
-            speak(2, false, Astra, "still closed minded, you'll never make it in the real world");
+            speak(2, false, Astra, "Im Astra, you'll remember this name for a long time. still closed minded, you'll never make it in the real world");
         }
         else if (primeInt == 106)
         {
@@ -186,17 +186,13 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 107)
         {
-            speak(2, false, Astra, "Are you Elite when youre the only witch in the room? Or only when youre comparing youre skills to others?");
+            speak(1, false, You, "I'm done entertaining youre riddles. *walks away*");
         }
         else if (primeInt == 108)
         {
-            speak(1, false, You, "I'm done entertaining youre riddles. *walks away*");
-        }
-        else if (primeInt == 109)
-        {
             speak(2, false, Astra, "I thought this would be the best way you show you.... All I can do now is pray the people on the left do a better job than I");
         }
-        else if (primeInt == 110)
+        else if (primeInt == 109)
         {
             speak(1, false, string.Empty, "2 cloudy pathways appear from thin air in front of you");
             DisplayNextScene();
@@ -205,15 +201,15 @@ public class DialogueScene4a : MonoBehaviour
         //Encounter after choice 2
         else if (primeInt == 200)
         {
-            speak(2, false, Astra, "You're the firs person to say that to me in 1000 years.");
+            speak(2, false, Astra, "You're the first person to say that to me in 1000 years.");
         }
         else if (primeInt == 201)
         {
-            speak(1, false, You, "I've never seen 1000 looks so good.");
+            speak(1, false, You, "I've never seen 1000 years looks so good.");
         }
         else if (primeInt == 202)
         {
-            speak(2, false, Astra, "peace is the only way one can get access ot the fountain of youth");
+            speak(2, false, Astra, "peace is the only way one can get access to the fountain of youth");
         }
         else if (primeInt == 203)
         {
@@ -221,7 +217,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 204)
         {
-            speak(2, false, Astra, "No light, no dark, no critique, no competition, just peace in solitude");
+            speak(2, false, Astra, "No Witches no School, no critique, no competition, just peace in solitude");
         }
         else if (primeInt == 205)
         {
@@ -233,7 +229,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 207)
         {
-            speak(1, false, You, "*sweats* yeahhhh well, if I do, it for sure wont be like this");
+            speak(1, false, You, "*sweats* yeahhhh well, my version of peace looks nothing like this.");
         }
         else if (primeInt == 208)
         {

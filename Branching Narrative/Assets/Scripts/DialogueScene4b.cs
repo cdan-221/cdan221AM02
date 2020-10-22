@@ -113,11 +113,11 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 5)
         {
-            speak(1, false, you, "Oh no no no, im flattered but I focus so much on school I've never had time to learn the piano.");
+            speak(1, false, you, "Oh no no no, im flattered I've never had time to learn the piano.");
         }
         else if (primeInt == 6)
         {
-            speak(2, false, Doc, "This, is the Piano to your soul, each key represents a fragment of you");
+            speak(2, false, Doc, "This.....this is the Piano to your soul, each key represents a fragment of you");
 
         }
         else if (primeInt == 7)
@@ -166,7 +166,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 101)
         {
-            speak(2, false, Doc, "This is what magic can be like. The perfect balence between the concious and subconcious");
+            speak(2, false, Doc, "This is what magic can be like. The perfect harmony between the concious and subconcious");
         }
         else if (primeInt == 102)
         {
@@ -186,19 +186,19 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 106)
         {
-            speak(2, false, Doc, "No, some people never get to know how their own songs end");
+            speak(2, false, Doc, "No, Some people are too weak.");
         }
         else if (primeInt == 107)
         {
-            speak(2, false, Doc, "But you can have more.");
+            speak(2, false, Doc, "But you can have more. Soon you will be strong enough to play piano to others peoples souls and control their fate.");
         }
         else if (primeInt == 108)
         {
-            speak(2, false, Doc, "With powers like ours, you can change outcome of any ones life, you can become a king like me! What do you say?");
+            speak(2, false, Doc, "With powers like yours, you can be immortal, you can become a king like me! What do you say?");
         }
         else if (primeInt == 109)
         {
-            speak(2, false, Doc, "The path to the right is a path to a greater understanding of your magical powers. OR you make go left..... to the high witch");
+            speak(2, false, Doc, "The path to the right is a path to a greater understanding of your magical powers. OR you may go left..... to the high witch");
             DisplayNextScene();
         }
 
