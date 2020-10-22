@@ -166,7 +166,7 @@ public class DialogueScene6 : MonoBehaviour
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "High Witch";
-            Char3speech.text = "You";
+            Char3speech.text = "PlayerData.UserName";
         }
 		else if (primeInt == 12)
         {

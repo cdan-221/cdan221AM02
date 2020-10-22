@@ -17,12 +17,10 @@ public class DialogueScene7DarkW : MonoBehaviour
     public GameObject dialogue;
     public GameObject ArtChar1;
 	public GameObject ArtChar2;
+	public GameObject ArtCharDARK;
     public GameObject ArtBG1;
 	public GameObject ArtBG2;
-    public GameObject Choice1a;
-    public GameObject Choice1b;
-    public GameObject NextScene1Button;
-    public GameObject NextScene2Button;
+    public GameObject NextSceneENDButton;
     public GameObject nextButton;
     //public GameObject gameHandler;
     //public AudioSource audioSource;
@@ -33,12 +31,10 @@ public class DialogueScene7DarkW : MonoBehaviour
         dialogue.SetActive(false);
         ArtChar1.SetActive(false);
 		ArtChar2.SetActive(false);
+		ArtCharDARK.SetActive(false);
         ArtBG1.SetActive(true);
 		ArtBG2.SetActive(false);
-        Choice1a.SetActive(false);
-        Choice1b.SetActive(false);
-        NextScene1Button.SetActive(false);
-        NextScene2Button.SetActive(false);
+        NextSceneENDButton.SetActive(false);
         nextButton.SetActive(true);
     }
 
@@ -62,39 +58,41 @@ public class DialogueScene7DarkW : MonoBehaviour
         }
         else if (primeInt == 2)
         {
+			ArtChar2.SetActive(true);
             dialogue.SetActive(true);
-            Char1name.text = "YOU";
-            Char1speech.text = "DARK WIN SCENE GOES HERE NOT READY YET, ALT+F4 NOW";
+            Char1name.text = "";
+            Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
+			Char3name.text = "High Witch";
+            Char3speech.text = "At first I had you pegged for a light witch, but recent events have since revealed, you seem like a natural in the dark arts.";
         }
         else if (primeInt == 3)
         {
-			ArtChar1.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "Joan";
-            Char2speech.text = "((I see lilies, are you trying to kill me? ))";
+            Char2name.text = "High Witch";
+            Char2speech.text = "And with this decision, I think it’s time you see some old faces.";
 			Char3name.text = "";
 			Char3speech.text = "";
             //gameHandler.AddPlayerStat(1);
         }
 		else if (primeInt == 4)
         {
-			ArtChar1.SetActive(false);
+			ArtChar2.SetActive(false);
+			ArtCharDARK.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "???";
-            Char3speech.text = "Oh hello there!";
+            Char2name.text = "Dark Ones";
+            Char2speech.text = "Hey PlayerData.UserName";
+			Char3name.text = "";
+            Char3speech.text = "";
         }
 		else if (primeInt == 5)
         {
-            Char1name.text = "YOU";
-            Char1speech.text = "Who's there?";
+			ArtCharDARK.SetActive(false);
+            Char1name.text = "PlayerData.UserName";
+            Char1speech.text = "Oh hey guys! Nice to see some of you again!";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -102,19 +100,19 @@ public class DialogueScene7DarkW : MonoBehaviour
         }
 		else if (primeInt == 6)
         {
-			ArtChar2.SetActive(true);
+			ArtCharDARK.SetActive(true);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Sorry! My Name’s Minori, this is my love cafe! We’re having a wedding right now, but…. Hmmmm…..";
+			Char3name.text = "Dark Ones";
+            Char3speech.text = "We’re so glad you chose dark magic over pitiful light magic. Dark Witches know how to get stuff done!";
         }
 		else if (primeInt == 7)
         {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Is something wrong??";
+			ArtCharDARK.SetActive(false);
+            Char1name.text = "PlayerData.UserName";
+            Char1speech.text = "And I’m bursting with anticipation to finally get started on my life, now that I’ve decided my path, as a Dark Witch.";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -122,19 +120,17 @@ public class DialogueScene7DarkW : MonoBehaviour
         }
 		else if (primeInt == 8)
         {
-			ArtChar2.SetActive(true);
             Char1name.text = "";
-            Char1speech.text = "";
+            Char1speech.text = "**You are a natural at the dark arts. Every spell ever written and researched was easily mastered by your hand, until there was nothing left to learn. And when there’s nothing left to learn it’s time to start discovering. Your never ending desire for new spells helps further the culture of witch kind.**";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "it’s nothing…";
+			Char3name.text = "";
+            Char3speech.text = "";
         }
 		else if (primeInt == 9)
         {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Well then we should really be-";
+            Char1name.text = "";
+            Char1speech.text = "**You single handedly created so many new advancements for dark witches everywhere. Creating entirely new fields of study. But there’s a deep sensation that something’s missing.**";
             Char2name.text = "";
             Char2speech.text = "";
 			Char3name.text = "";
@@ -142,341 +138,22 @@ public class DialogueScene7DarkW : MonoBehaviour
         }
 		else if (primeInt == 10)
         {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "FINE! I’ll tell you… I’m supposed to have a batch of my famous love tea but the love spell I cast on it last night isn’t taking... ";
-        }
-		else if (primeInt == 11)
-        {
-			ArtChar1.SetActive(true);
 			ArtChar2.SetActive(false);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Joan";
-            Char2speech.text = "((Need I remind you we’re running late??))";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 12)
-        {
-			ArtChar2.SetActive(true);
-			ArtChar1.SetActive(false);
+			ArtCharDARK.SetActive(false);
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Wait a second… a talking cat.. A FAMILIAR! You're a witch right?!";
-        }
-		else if (primeInt == 13)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Yeah, but I-";
-            Char2name.text = "";
-            Char2speech.text = "";
 			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 14)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Perfect! Maybe you can help with the love spell! It’s really simple and the guests my cafe is currently hosting are expecting it!";
-        }
-		else if (primeInt == 15)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "I don’t know.. I’ve never really used this type of magic before.";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-        else if (primeInt == 16)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Please please pretty please!! It’s not that hard I’ll walk you through it just say you’ll do it!";
-            // Turn off "Next" button, turn on "Choice" buttons
-            nextButton.SetActive(false);
-            allowSpace = false;
-            Choice1a.SetActive(true); // function Choice1aFunct()
-            Choice1b.SetActive(true); // function Choice1bFunct()
-        }
-        // ENCOUNTER AFTER CHOICE #1
-        else if (primeInt == 100)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Okay, so how do I-";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 101)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Just focus your mind on the tea and things that you love, like butterflies, gummy bears, animals sneezing…";
-        }
-		else if (primeInt == 102)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "*You focus your mind, and the tea starts glowing, the color shifts from looking like your typical black tea to having pink undertones and… is that glitter??*";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 103)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Ta~da?";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 104)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "You did it, you did it! OH I’m so happy!";
-        }
-		else if (primeInt == 105)
-        {
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "See you helped me and learned about love spells, where did you say you were going again?";
-        }
-		else if (primeInt == 106)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "I didn’t but I actually have to go to the school to decide if I’m going to become a light witch or a dark witch…";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 107)
-        {
-			ArtChar1.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "Joan";
-            Char2speech.text = "Yes, and we’re running late, so less talky talky more walky walky.";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 108)
-        {
-			ArtChar1.SetActive(false);
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Well I won’t keep you any longer, But just know if you want to keep doing love spells, you might wanna stick to the path of light.";
-        }
-		else if (primeInt == 109)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Okay, Bye now!";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-		else if (primeInt == 111)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "I guess we should get going then huh, which way?";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
+            Char3speech.text = "**A sensation that hasn’t left you since the day you chose. You feel it was not your destiny to only be committed to the dark arts, even with all the good you’ve done and discoveries you’ve made. This feeling stays with you forever…**";
 			nextButton.SetActive(false);
             allowSpace = false;
-            NextScene1Button.SetActive(true);
-			NextScene2Button.SetActive(true);
-        }
-
-	//Encounter after choice 2
-	else if (primeInt == 200)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "I’ve never done this type of magic before and I just met you, I really need to get going…";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-	else if (primeInt == 201)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "UGH, But I need this tea enchanted, just try real quick and I’ll let you go…";
-        }
-	else if (primeInt == 202)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "I'll try...";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-	else if (primeInt == 203)
-        {
-            Char1name.text = "";
-            Char1speech.text = "*you focus really hard on the tea, you notice something start to happen. The tea started bubbling like it was being boiled, and it’s color shifted from black tea, to something resembling more black oil*";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-	else if (primeInt == 204)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "Oh.. So that’s how you feel about me…";
-        }
-	else if (primeInt == 205)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "huh???";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-	else if (primeInt == 206)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "YOU FILLED MY LOVE TEA WITH HATE!";
-        }
-	else if (primeInt == 207)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "Sorry I-";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-        }
-	else if (primeInt == 208)
-        {
-			ArtChar2.SetActive(true);
-            Char1name.text = "";
-            Char1speech.text = "";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "Minori";
-            Char3speech.text = "GET OUT!!";
-        }
-	else if (primeInt == 209)
-        {
-			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
-            Char1speech.text = "That didn’t go so well… now which way…";
-            Char2name.text = "";
-            Char2speech.text = "";
-			Char3name.text = "";
-            Char3speech.text = "";
-			nextButton.SetActive(false);
-            allowSpace = false;
-            NextScene1Button.SetActive(true);
-			NextScene2Button.SetActive(true);
+            NextSceneENDButton.SetActive(true);
         }
 	
-	}
-    // FUNCTIONS FOR BUTTONS TO ACCESS (Choice #1 and switch scenes)
-    public void Choice1aFunct()
-    {
-		ArtChar2.SetActive(true);
-        Char1name.text = "";
-        Char1speech.text = "";
-        Char2name.text = "";
-        Char2speech.text = "";
-		Char3name.text = "Minori";
-        Char3speech.text = "You Will! Oh, I'm so happy!!!";
-        primeInt = 99;
-        Choice1a.SetActive(false);
-        Choice1b.SetActive(false);
-        nextButton.SetActive(true);
-        allowSpace = true;
-    }
-    public void Choice1bFunct()
-    {
-        Char1name.text = "";
-        Char1speech.text = "";
-        Char2name.text = "";
-        Char2speech.text = "";
-		Char3name.text = "Minori";
-        Char3speech.text = "What do you mean you CAN’T?! Can’t or Won’t??";
-        primeInt = 199;
-        Choice1a.SetActive(false);
-        Choice1b.SetActive(false);
-        nextButton.SetActive(true);
-        allowSpace = true;
-    }
-	
 
-    public void SceneChange4a()
+    public void SceneChangeEND()
     {
-        SceneManager.LoadScene("Scene4a");
-    }
-    public void SceneChange4b()
-    {
-        SceneManager.LoadScene("Scene4b");
+        SceneManager.LoadScene("MainMenu");
     }
 }
