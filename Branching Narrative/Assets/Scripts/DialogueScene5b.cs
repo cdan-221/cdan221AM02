@@ -439,7 +439,7 @@ public class DialogueScene5b : MonoBehaviour
             Char1speech.text = "";
             Char2name.text = "";
             Char2speech.text = "";
-			Char3name.text = "Minori";
+			Char3name.text = "Adelia";
             Char3speech.text = "Whatever.";
         }
 	else if (primeInt == 209)
