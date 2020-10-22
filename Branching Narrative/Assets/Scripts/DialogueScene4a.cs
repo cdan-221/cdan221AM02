@@ -27,11 +27,12 @@ public class DialogueScene4a : MonoBehaviour
     //public GameObject gameHandler;
     //public AudioSource audioSource;
     private bool allowSpace = true;
-    const string You = "You";
+    string You = "You";
     const string Astra = "ASTRA";
 
     void Start()
     {         // initial visibility settings
+        You = PlayerData.UserName;
         dialogue.SetActive(false);
         ArtChar1.SetActive(false);
         ArtChar2.SetActive(false);

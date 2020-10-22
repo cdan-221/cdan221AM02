@@ -27,11 +27,12 @@ public class DialogueScene4b : MonoBehaviour
     //public GameObject gameHandler;
     //public AudioSource audioSource;
     private bool allowSpace = true;
-    const string YOU = "You";
+    string you = "You";
     const string Doc = "Doc";
 
     void Start()
-    {         // initial visibility settings
+    {
+        you = PlayerData.UserName;
         dialogue.SetActive(false);
         ArtChar1.SetActive(false);
         ArtChar2.SetActive(false);
@@ -104,7 +105,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 3)
         {
-            speak(1, false, YOU, "Well this is a nice change of pace! I love the piano. And this song is amazing!");
+            speak(1, false, you, "Well this is a nice change of pace! I love the piano. And this song is amazing!");
         }
         else if (primeInt == 4)
         {
@@ -112,7 +113,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 5)
         {
-            speak(1, false, YOU, "Oh no no no, im flattered but I focus so much on school I've never had time to learn the piano.");
+            speak(1, false, you, "Oh no no no, im flattered but I focus so much on school I've never had time to learn the piano.");
         }
         else if (primeInt == 6)
         {
@@ -126,7 +127,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 8)
         {
-            speak(1, true, YOU, "My Piano??");
+            speak(1, true, you, "My Piano??");
         }
         else if (primeInt == 9)
         {
@@ -173,7 +174,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 103)
         {
-            speak(1, false, YOU, "Wow I didnt know I had it in me");
+            speak(1, false, you, "Wow I didnt know I had it in me");
         }
         else if (primeInt == 104)
         {
@@ -181,7 +182,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 105)
         {
-            speak(1, false, YOU, "So some people never get to expereince this?");
+            speak(1, false, you, "So some people never get to expereince this?");
         }
         else if (primeInt == 106)
         {
@@ -208,7 +209,7 @@ public class DialogueScene4b : MonoBehaviour
         }
         else if (primeInt == 201)
         {
-            speak(1, false, YOU, "huh?");
+            speak(1, false, you, "huh?");
         }
         else if (primeInt == 202)
         {
