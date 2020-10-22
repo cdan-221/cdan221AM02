@@ -14,7 +14,11 @@ public class PlayerData : ScriptableObject
     public static string UserName { get; private set; } = string.Empty;
     public void AddChoice(PlayerPath choice) => m_PlayerChoices.Add(choice);
     public void ClearChoices() => m_PlayerChoices.Clear();
-    private void OnEnable() => m_PlayerChoices.Clear();
+    private void OnEnable()
+    {
+        m_PlayerChoices.Clear();
+        m_username = null;
+    }
 
     public void SetPlayerName(string newName)
     {
@@ -39,7 +43,7 @@ public class PlayerData : ScriptableObject
     {
         if (m_PlayerChoices.Count > MaxChoices) // ensure that playerchoices never exceeds maxcount in editor
             m_PlayerChoices.RemoveRange(MaxChoices, m_PlayerChoices.Count - MaxChoices);
-        m_username = UserName;
+        UserName = m_username;
     }
 }
 
