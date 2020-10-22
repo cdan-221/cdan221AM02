@@ -69,7 +69,7 @@ public class DialogueScene2b : MonoBehaviour
         }
         else if (primeInt == 3)
         {
-            Char1name.text = "You";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Huh?! Who are you?!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -84,7 +84,7 @@ public class DialogueScene2b : MonoBehaviour
         }
         else if (primeInt == 5)
         {
-            Char1name.text = "You";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Really? A Stroll? Here?";
             Char2name.text = "";
             Char2speech.text = "?";
@@ -106,7 +106,7 @@ public class DialogueScene2b : MonoBehaviour
         }
         else if (primeInt == 8)
         {
-            Char1name.text = "You";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "...no, not yet.";
             Char2name.text = "";
             Char2speech.text = "";

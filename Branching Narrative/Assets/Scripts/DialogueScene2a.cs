@@ -62,7 +62,7 @@ public class DialogueScene2a : MonoBehaviour
         {
             ArtChar1.SetActive(true);
             dialogue.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "What the...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -77,7 +77,7 @@ public class DialogueScene2a : MonoBehaviour
         }
         else if (primeInt == 4)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Huh? Oh yeah I've never seen faces on trees before... especially screaming ones.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -92,7 +92,7 @@ public class DialogueScene2a : MonoBehaviour
         }
         else if (primeInt == 6)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = " Hahahahaha- that was a joke right?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -106,7 +106,7 @@ public class DialogueScene2a : MonoBehaviour
         }
         else if (primeInt == 8)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Wow the light around you is really warm.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -127,7 +127,7 @@ public class DialogueScene2a : MonoBehaviour
         }
         else if (primeInt == 11)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Yeah. I'm still stumped on which one to choose.";
             Char2name.text = "";
             Char2speech.text = "";

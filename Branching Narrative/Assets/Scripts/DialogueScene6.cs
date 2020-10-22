@@ -68,7 +68,7 @@ public class DialogueScene6 : MonoBehaviour
         else if (primeInt == 2)
         {
             dialogue.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Yes, We're finally here, and it looks like it hasn't started yet.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -89,7 +89,7 @@ public class DialogueScene6 : MonoBehaviour
 		else if (primeInt == 4)
         {
 			ArtChar1.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Ya'know, it's weird, once I go though that door, I'll have to make a choice, and I'll cut my magic in half,, I'll never be able to do the other again.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -109,7 +109,7 @@ public class DialogueScene6 : MonoBehaviour
 		else if (primeInt == 6)
         {
 			ArtChar1.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Well, lets get in there, I don't wanna be the last one in.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -120,7 +120,7 @@ public class DialogueScene6 : MonoBehaviour
         {
 			ArtBG1.SetActive(false);
 			ArtBG2.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Huh, they decorated it all black and white.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -140,7 +140,7 @@ public class DialogueScene6 : MonoBehaviour
 		else if (primeInt == 9)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "I'm kinda scared, I wish there was another way.";
             Char2name.text = "";
             Char2speech.text = "";

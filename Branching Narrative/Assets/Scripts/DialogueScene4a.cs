@@ -27,7 +27,7 @@ public class DialogueScene4a : MonoBehaviour
     //public GameObject gameHandler;
     //public AudioSource audioSource;
     private bool allowSpace = true;
-    const string YOU = "You";
+    const string You = "You";
     const string Astra = "ASTRA";
 
     void Start()
@@ -107,7 +107,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 4)
         {
-            speak(1, true, YOU, "Who the hell are you? Its.....");
+            speak(1, true, You, "Who the hell are you? Its.....");
         }
         else if (primeInt == 5)
         {
@@ -161,7 +161,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 101)
         {
-            speak(1, false, YOU, "*laughs* The same? I guess, but you dont know who youre talking too im eliet. ");
+            speak(1, false, You, "*laughs* The same? I guess, but you dont know who youre talking too im eliet. ");
         }
         else if (primeInt == 102)
         {
@@ -169,7 +169,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 103)
         {
-            speak(1, false, YOU, "I never said I didnt have more to learn. What do you know anyway, you dont look a grand witch");
+            speak(1, false, You, "I never said I didnt have more to learn. What do you know anyway, you dont look a grand witch");
         }
         else if (primeInt == 104)
         {
@@ -181,7 +181,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 106)
         {
-            speak(1, false, YOU, "SAYS WHO?! Screw you, I've worked too hard to have some random dude tell me what about MY future");
+            speak(1, false, You, "SAYS WHO?! Screw you, I've worked too hard to have some random dude tell me what about MY future");
         }
         else if (primeInt == 107)
         {
@@ -189,7 +189,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 108)
         {
-            speak(1, false, YOU, "I'm done entertaining youre riddles. *walks away*");
+            speak(1, false, You, "I'm done entertaining youre riddles. *walks away*");
         }
         else if (primeInt == 109)
         {
@@ -208,7 +208,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 201)
         {
-            speak(1, false, YOU, "I've never seen 1000 looks so good.");
+            speak(1, false, You, "I've never seen 1000 looks so good.");
         }
         else if (primeInt == 202)
         {
@@ -216,7 +216,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 203)
         {
-            speak(1, false, YOU, "I mean yeah its peaceful I guess, but dont you get lonely??");
+            speak(1, false, You, "I mean yeah its peaceful I guess, but dont you get lonely??");
         }
         else if (primeInt == 204)
         {
@@ -224,7 +224,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 205)
         {
-            speak(1, false, YOU, "uhhhhh yeah, thats what it looks like, when was the last time you got some sleep");
+            speak(1, false, You, "uhhhhh yeah, thats what it looks like, when was the last time you got some sleep");
         }
         else if (primeInt == 206)
         {
@@ -232,7 +232,7 @@ public class DialogueScene4a : MonoBehaviour
         }
         else if (primeInt == 207)
         {
-            speak(1, false, YOU, "*sweats* yeahhhh well, if I do, it for sure wont be like this");
+            speak(1, false, You, "*sweats* yeahhhh well, if I do, it for sure wont be like this");
         }
         else if (primeInt == 208)
         {

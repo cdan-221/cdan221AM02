@@ -63,7 +63,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 2)
         {
             dialogue.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Man! It got really dark all of a sudden...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -73,7 +73,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 3)
         {
             dialogue.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Hey Joan! Can you see anything?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -103,7 +103,7 @@ public class DialogueScene5b : MonoBehaviour
         }
 		else if (primeInt == 6)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "That's not chilling at all.....";
             Char2name.text = "";
             Char2speech.text = "";
@@ -123,7 +123,7 @@ public class DialogueScene5b : MonoBehaviour
 		else if (primeInt == 8)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Umm... Ok can you tell me how to get to the school Adelia?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -153,7 +153,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 11)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Well.... I really need to leave...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -173,7 +173,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 13)
         {
             ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "What do you think Joan?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -215,7 +215,7 @@ public class DialogueScene5b : MonoBehaviour
 		else if (primeInt == 17)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Hmm what should I do...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -231,7 +231,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 100)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Ok. What do I need to do.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -251,7 +251,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 102)
         {
             ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Umm.. Ok...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -281,7 +281,7 @@ public class DialogueScene5b : MonoBehaviour
 		else if (primeInt == 105)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "*Pant* What the heck! You didn't say that you would take most of my stored up magic!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -291,7 +291,7 @@ public class DialogueScene5b : MonoBehaviour
         else if (primeInt == 106)
         {
             ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "I need that for the ceremony!!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -320,7 +320,7 @@ public class DialogueScene5b : MonoBehaviour
 		else if (primeInt == 109)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "*Pant* Now I'm super tired....";
             Char2name.text = "";
             Char2speech.text = "";
@@ -340,7 +340,7 @@ public class DialogueScene5b : MonoBehaviour
 		else if (primeInt == 111)
         {
             ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "*Sigh* Well whatever. Let's get going.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -356,7 +356,7 @@ public class DialogueScene5b : MonoBehaviour
 	else if (primeInt == 200)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "I'm sorry but I really have to go!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -376,7 +376,7 @@ public class DialogueScene5b : MonoBehaviour
 	else if (primeInt == 202)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Fine just a little power, but only the amount from this crystal!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -405,7 +405,7 @@ public class DialogueScene5b : MonoBehaviour
 	else if (primeInt == 205)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Good! Now which way to the ceremony?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -425,7 +425,7 @@ public class DialogueScene5b : MonoBehaviour
 	else if (primeInt == 207)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Thank you.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -445,7 +445,7 @@ public class DialogueScene5b : MonoBehaviour
 	else if (primeInt == 209)
         {
 			ArtChar2.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Alright. Almost there.";
             Char2name.text = "";
             Char2speech.text = "";

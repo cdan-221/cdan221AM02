@@ -63,14 +63,14 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 2)
         {
             dialogue.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "*YAWN*, Today's the big day, the day I have to choose. ";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 3)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Will I become a dark witch, or a light witch... I'm still so conflicted, I almost don't want to decide yet, but I must.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -78,14 +78,14 @@ public class DialogueScene1 : MonoBehaviour
         }
         else if (primeInt == 4)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "If only there was a way to choose both? But I don't think the high witch would like that.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 5)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Joan, what do you think I should choose?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -102,14 +102,14 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 7)
         {
 			ArtChar1.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "You Might have a point there.";
             Char2name.text = "";
             Char2speech.text = "";
         }
         else if (primeInt == 8)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Now now now, what to wear....";
             Char2name.text = "";
             Char2speech.text = "";
@@ -123,7 +123,7 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 100)
         {
 			ArtChar1.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Shut up you little flirt, your gonna make me blush.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -131,7 +131,7 @@ public class DialogueScene1 : MonoBehaviour
 
         else if (primeInt == 101)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Well we should start thinking about leaving...";
             Char2name.text = "";
             Char2speech.text = "";
@@ -140,7 +140,7 @@ public class DialogueScene1 : MonoBehaviour
         {
 			ArtBG1.SetActive(false);
 			ArtBG2.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Such a sunny warm day.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -148,7 +148,7 @@ public class DialogueScene1 : MonoBehaviour
 
         else if (primeInt == 103)
         {
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "OHMIGODDESS, We're gonna be late to the ceremony!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -166,7 +166,7 @@ public class DialogueScene1 : MonoBehaviour
 			ArtChar1.SetActive(false);
 			ArtBG2.SetActive(false);
 			ArtBG3.SetActive(true);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "A fork in the road, but which path should we take?";
             Char2name.text = "";
             Char2speech.text = "";
@@ -183,7 +183,7 @@ public class DialogueScene1 : MonoBehaviour
         else if (primeInt == 107)
         {
 			ArtChar1.SetActive(false);
-            Char1name.text = "YOU";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Uhm.... Let's go....";
             Char2name.text = "";
             Char2speech.text = "";
