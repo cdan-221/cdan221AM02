@@ -84,14 +84,14 @@ public class DialogueScene7DarkW : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "Dark Ones";
-            Char2speech.text = "Hey PlayerData.UserName";
+            Char2speech.text = "Hey" +PlayerData.UserName;
 			Char3name.text = "";
             Char3speech.text = "";
         }
 		else if (primeInt == 5)
         {
 			ArtCharDARK.SetActive(false);
-            Char1name.text = "PlayerData.UserName";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "Oh hey guys! Nice to see some of you again!";
             Char2name.text = "";
             Char2speech.text = "";
@@ -111,7 +111,7 @@ public class DialogueScene7DarkW : MonoBehaviour
 		else if (primeInt == 7)
         {
 			ArtCharDARK.SetActive(false);
-            Char1name.text = "PlayerData.UserName";
+            Char1name.text = PlayerData.UserName;
             Char1speech.text = "And I’m bursting with anticipation to finally get started on my life, now that I’ve decided my path, as a Dark Witch.";
             Char2name.text = "";
             Char2speech.text = "";
@@ -150,6 +150,7 @@ public class DialogueScene7DarkW : MonoBehaviour
             allowSpace = false;
             NextSceneENDButton.SetActive(true);
         }
+	}
 	
 
     public void SceneChangeEND()
