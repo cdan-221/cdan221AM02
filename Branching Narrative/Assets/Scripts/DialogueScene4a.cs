@@ -265,7 +265,7 @@ public class DialogueScene4a : MonoBehaviour
         SceneManager.LoadScene("Scene5a");
     }
     public void SceneChange4b()
-    {
+    { 
         SceneManager.LoadScene("Scene5b");
     }
 }
