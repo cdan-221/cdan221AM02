@@ -17,6 +17,7 @@ public class DialogueScene2a : MonoBehaviour
     public GameObject dialogue;
     public GameObject ArtChar1;
     public GameObject ArtBG1;
+    public GameObject ArtBG2;
     public GameObject Choice1a;
     public GameObject Choice1b;
     public GameObject NextScene1Button;
@@ -31,6 +32,7 @@ public class DialogueScene2a : MonoBehaviour
         dialogue.SetActive(false);
         ArtChar1.SetActive(false);
         ArtBG1.SetActive(true);
+        ArtBG2.SetActive(false);
         Choice1a.SetActive(false);
         Choice1b.SetActive(false);
         NextScene1Button.SetActive(false);
@@ -156,7 +158,9 @@ public class DialogueScene2a : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "SAMUEL";
-            Char2speech.text = "For light mages the light will never leave your side. Never to be lost in the dark for as long as the magic inside you still burns. The road ahead will keep you in a constant path. Now go on or you'll be late.";
+            Char2speech.text = "For light mages the light will never leave your side. Never to be lost in the dark for as long as the magic inside you still burns. Now go on or you'll be late.";
+            ArtBG1.SetActive(false);
+            ArtBG2.SetActive(true);
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
@@ -167,7 +171,7 @@ public class DialogueScene2a : MonoBehaviour
             Char1name.text = "";
             Char1speech.text = "";
             Char2name.text = "SAMUEL";
-            Char2speech.text = "That's fine. Well that's what I'm here for! Going straight will put you on a easy path. Now get to it, you don't want to be late do you.";
+            Char2speech.text = "That's fine. Well that's what I'm here for! Now get to it, you don't want to be late do you.";
             nextButton.SetActive(false);
             allowSpace = false;
             NextScene1Button.SetActive(true);
